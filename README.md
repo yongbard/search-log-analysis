@@ -24,18 +24,6 @@
 - numpy
 - scikit-learn
 
-## 프로젝트 구조
-```
-├── main.py            # 모든 구현이 포함된 메인 스크립트
-├── components/
-    ├── data_generation.py    # 검색 로그 데이터 생성
-    ├── feature_engineering.py # 데이터 준비 및 특성 엔지니어링
-    ├── models/
-        ├── lstm.py           # LSTM 모델 구현
-        ├── xgboost_model.py  # XGBoost 구현
-        └── bert_model.py     # BERT 모델 구현
-```
-
 ## 주요 기능 설명
 
 ### 1. 데이터 생성
@@ -70,12 +58,6 @@
   - 대조군 vs 실험군
   - CTR 계산 및 비교
   - 성능 향상 측정
-
-## 설치 방법
-
-```bash
-pip install -r requirements.txt
-```
 
 ## 사용 방법
 
@@ -118,6 +100,3 @@ transformers
 3. 다국어 검색 쿼리 지원 추가
 4. 더 다양한 A/B 테스트 시나리오 구현
 5. 모니터링 및 로깅 기능 추가
-
-## 라이센스
-MIT 라이센스
